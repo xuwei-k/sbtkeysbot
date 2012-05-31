@@ -1,0 +1,4 @@
+# sbtkeysbot
+
+* licenses MIT License
+
