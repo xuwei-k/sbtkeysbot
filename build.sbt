@@ -6,7 +6,7 @@ name := "sbtkeysbot"
 
 organization := "com.github.xuwei-k"
 
-homepage := Some(url("https://github.com/xuwei-k/hatedabot"))
+homepage := Some(url("https://github.com/xuwei-k/sbtkeysbot"))
 
 externalResolvers ~= { _.filterNot{_.name.contains("Scala-Tools")} }
 
@@ -20,8 +20,7 @@ scalaVersion := "2.9.1"
 
 libraryDependencies ++= Seq(
   "org.twitter4j" % "twitter4j-core" % "2.2.5"
-// ,"com.twitter" % "util-eval_2.9.1" % "4.0.1"
- ,"com.twitter" % "util-eval_2.9.1" % "3.0.0"
+ ,"com.twitter" % "util-eval_2.9.1" % "4.0.1"
  ,"org.specs2"  %% "specs2" % "1.10" % "test"
 )
 
